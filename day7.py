@@ -1,5 +1,6 @@
+#!/usr/bin/env python
+
 from aocd import lines
-from collections import Counter
 
 
 dir = {"dirs": {"/": {"size": 0, "dirs": {}}}, "size": 0}

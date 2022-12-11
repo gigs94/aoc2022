@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from aocd import lines
 import numpy as np
 

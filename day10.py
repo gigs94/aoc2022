@@ -161,7 +161,7 @@ crt = []
 def engine(c, x, s, a):
     # DURING CYCLE
     signals[c] = c * x
-    crt.append("#" if abs((c % 40) - s) <= 1 else ".")
+    crt.append("#" if abs((c % 40) - s) <= 1 else " ")
     c += 1
     # AFTER CYCLE
     if a:

@@ -1,6 +1,7 @@
+#!/usr/bin/env python
+
 from aocd import lines
 import copy
-import numpy as np
 
 test = """R 4
 U 4
